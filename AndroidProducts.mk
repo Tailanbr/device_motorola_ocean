@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ocean.mk
+    $(LOCAL_DIR)/pa_ocean.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_ocean-eng \
-    aosp_ocean-user \
-    aosp_ocean-userdebug
+    pa_ocean-eng \
+    pa_ocean-user \
+    pa_ocean-userdebug
