@@ -24,6 +24,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 CUSTOM_BUILD_TYPE := OFFICIAL
 
+#ADB
+TARGET_ENABLE_ADB := true
+
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
